@@ -36,7 +36,8 @@ const Login = () => {
       if (response.data.success) {
   alert("Login Successful! Redirecting to Dashboard...");
   const signupName = localStorage.getItem("traderName") || "User";
-  window.location.href = `http://localhost:3000/?name=${encodeURIComponent(signupName)}`; 
+  window.location.href = `https://zerodha-project-9dmm-1zncn9b7v-sufiyan786.vercel.app/?name=${encodeURIComponent(signupName)}`;
+  // window.location.href = `http://localhost:3000/?name=${encodeURIComponent(signupName)}`; 
 }
     } catch (err) {
       alert(err.response?.data?.message || "Invalid OTP");
