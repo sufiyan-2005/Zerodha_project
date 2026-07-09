@@ -23,12 +23,12 @@ const uri = process.env.MONGO_URL;
 const app = express();
 app.use(bodyParser.json());
 
-// app.use(cors());
-app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:3001"], // Tumhare dono frontend aur dashboard ke ports
-  credentials: true,
-  methods: ["GET", "POST", "PUT", "DELETE"]
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: ["http://localhost:3000", "http://localhost:3001"], // Tumhare dono frontend aur dashboard ke ports
+//   credentials: true,
+//   methods: ["GET", "POST", "PUT", "DELETE"]
+// }));
 
 // app.get('/addHoldings' , async(req , res) =>{
 //     let tempHoldings=[
