@@ -1,0 +1,113 @@
+/* --- Global Container Styling ---
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif !important;
+  max-width: 1100px !important;
+  margin-top: 2rem !important;
+}
+.col-md-7 .mb-4.border-bottom {
+  border-bottom: 1px solid #eeeeee !important;
+  padding-bottom: 1.25rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.col-md-7 .d-flex.justify-content-between.align-items-center {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.col-md-7 .fs-5 {
+  font-size: 1.05rem !important;
+  font-weight: 400 !important;
+  color: #444444 !important;
+}
+
+.col-md-7 .text-muted {
+  font-size: 1.1rem !important;
+  color: #9b9b9b !important;
+}
+
+.col-md-7 .text-primary.fs-5 {
+  font-size: 0.8rem !important;
+  color: #387ed1 !important;
+  font-weight: bold;
+}
+
+.col-md-7 ul.list-unstyled.ps-5 {
+  padding-left: 2.8rem !important;
+  margin-top: 0.8rem !important;
+}
+
+.col-md-7 ul.list-unstyled.ps-5 li {
+  margin-bottom: 0.65rem !important;
+}
+
+.col-md-7 ul.list-unstyled.ps-5 li a {
+  font-size: 0.92rem !important;
+  color: #387ed1 !important;
+  text-decoration: none !important;
+  font-weight: 400;
+}
+
+.col-md-7 ul.list-unstyled.ps-5 li a:hover {
+  text-decoration: underline !important;
+}
+
+
+.col-md-5 .p-3.mb-4 {
+  background-color: #fbfbfb !important;
+  border-left: 3px solid #ff9800 !important; 
+  padding: 1.2rem 1rem !important;
+  border-radius: 0 4px 4px 0;
+  box-shadow: none !important;
+}
+
+.col-md-5 .p-3.mb-4 ul {
+  padding-left: 1.2rem !important;
+  margin-bottom: 0 !important;
+}
+
+.col-md-5 .p-3.mb-4 ul li {
+  margin-bottom: 0.75rem !important;
+}
+
+.col-md-5 .p-3.mb-4 ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.col-md-5 .p-3.mb-4 a.text-primary {
+  font-size: 0.92rem !important;
+  color: #387ed1 !important;
+  text-decoration: none !important;
+  line-height: 1.4;
+}
+
+.col-md-5 .p-3.mb-4 a.text-primary:hover {
+  text-decoration: underline !important;
+}
+
+.col-md-5 h6.fw-bold {
+  font-size: 1.05rem !important;
+  font-weight: 500 !important;
+  color: #444444 !important;
+  margin-top: 1.5rem;
+}
+
+.col-md-5 ol.list-unstyled {
+  padding-left: 0 !important;
+  margin-top: 1rem !important;
+}
+
+.col-md-5 ol.list-unstyled li {
+  margin-bottom: 0.85rem !important;
+  font-size: 0.92rem !important;
+  color: #666666 !important;
+}
+
+.col-md-5 ol.list-unstyled li a {
+  color: #387ed1 !important;
+  text-decoration: none !important;
+}
+
+.col-md-5 ol.list-unstyled li a:hover {
+  text-decoration: underline !important;
+} */
