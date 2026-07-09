@@ -1,13 +1,12 @@
-import React, { useContext } from "react"; // 1. useContext import kiya
+import React, { useContext } from "react"; 
 import { Link } from "react-router-dom";
-import GeneralContext from "./GeneralContext"; // 2. Context import kiya
+import GeneralContext from "./GeneralContext";
 
 const Orders = () => {
   const { orders } = useContext(GeneralContext);
 
   return (
     <div className="orders">
-      {/* Agar orders empty hain to purana block dikhao */}
       {orders.length === 0 ? (
         <div className="no-orders">
           <p>You haven't placed any orders today</p>
@@ -47,23 +46,3 @@ const Orders = () => {
 };
 
 export default Orders;
-
-
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// const Orders = () => {
-//   return (
-//     <div className="orders">
-//       <div className="no-orders">
-//         <p>You haven't placed any orders today</p>
-
-//         <Link to={"/"} className="btn">
-//           Get started
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Orders;

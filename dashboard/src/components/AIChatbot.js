@@ -21,7 +21,7 @@ function AIChatbot({ context = "landing" }) {
 
     try {
       // Backend api hit karenge jo hum step 3 mein banayenge
-      const response = await axios.post('http://localhost:3002/api/ai-chat', {
+      const response = await axios.post('https://zerodha-project-o0ky.onrender.com/api/ai-chat', {
         message: userMessage,
         context: context // 'landing' ya 'dashboard' check karne ke liye
       });

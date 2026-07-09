@@ -16,7 +16,8 @@ export const GeneralContextProvider = (props) => {
 
   const fetchOrders = async () => {
     try {
-      const response = await axios.get("http://localhost:3002/allOrders");
+      // const response = await axios.get("http://localhost:3002/allOrders");
+      const response = await axios.get("https://zerodha-project-o0ky.onrender.com/allorders");
       setOrders(response.data);
     } catch (error) {
       console.error("Orders fetch karne mein error aaya:", error);

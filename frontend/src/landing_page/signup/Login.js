@@ -15,7 +15,7 @@ const Login = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3002/send-otp', { mobile });
+      const response = await axios.post('https://zerodha-project-o0ky.onrender.com/send-otp', { mobile });
       if (response.data.success) {
         alert("OTP sent! Check your backend terminal (Default OTP :- 123456).");
         setIsOtpSent(true); // OTP field 
@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:3002/verify-otp', { mobile, otp });
+      const response = await axios.post('https://zerodha-project-o0ky.onrender.com/verify-otp', { mobile, otp });
       if (response.data.success) {
   alert("Login Successful! Redirecting to Dashboard...");
   const signupName = localStorage.getItem("traderName") || "User";
