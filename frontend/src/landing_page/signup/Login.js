@@ -36,10 +36,9 @@ const Login = () => {
       if (response.data.success) {
   alert("Login Successful! Redirecting to Dashboard...");
   const signupName = localStorage.getItem("traderName") || "User";
-  window.location.href = `https://zerodha-project-9dmm-1zncn9b7v-sufiyan786.vercel.app/?name=${encodeURIComponent(signupName)}`;
-  // window.location.href = `http://localhost:3000/?name=${encodeURIComponent(signupName)}`; 
+  window.location.href = `https://zerodha-project-kscs-q7l5l8yv6-sufiyan786.vercel.app/?name=${encodeURIComponent(signupName)}`; //https://zerodha-project-9dmm-1zncn9b7v-sufiyan786.vercel.app/
 }
-    } catch (err) {
+  } catch (err) {
       alert(err.response?.data?.message || "Invalid OTP");
     } finally {
       setLoading(false);
