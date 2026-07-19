@@ -11,7 +11,7 @@ function Awards() {
                 <div className='col-6 pl-5'>
                     <h1>Largest stock broker in India</h1>
                     
-                    <p>2+ million Zerodha clients contribute to over 15% of all retails order
+                    <p>2+ million TradeX clients contribute to over 15% of all retails order
                         volumes in India daily by trading and investing in:
                     </p>
                     <div className='row'>

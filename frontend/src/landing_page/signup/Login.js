@@ -49,10 +49,10 @@ const Login = () => {
     <div className="login-page-wrapper">
       <div className="login-card-container">
         <div className="login-brand-logo">
-          <img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha Logo" />
+          <img src="media/images/tradelogo.png" alt="Zerodha Logo" style={{width:"70%"}}/>
         </div>
         
-        <h1 className="login-title">Login to Kite</h1>
+        <h1 className="login-title">Login to TradeX</h1>
         <p className="login-subtitle">
           {!isOtpSent ? "Enter your mobile to receive OTP" : `Enter the OTP sent to +91 ${mobile}`}
         </p>
@@ -94,7 +94,7 @@ const Login = () => {
         )}
 
         <div className="login-footer-links fs-5">
-          <span onClick={() => window.location.href="/signup"}>New to Zerodha? Signup</span>
+          <span onClick={() => window.location.href="/signup"}>New to TradeX? Signup</span>
         </div>
       </div>
     </div>

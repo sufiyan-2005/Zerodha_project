@@ -11,7 +11,7 @@ function Stats() {
 
                     <h2 >Customer-first always</h2>
                     <br></br>
-                    <p className='text-muted fs-5'>That's why 1.6+ crore customers trust Zerodha with ~ ₹6 
+                    <p className='text-muted fs-5'>That's why 1.6+ crore customers trust TradeX with ~ ₹6 
                     lakh crores of equity investments, making us India’s
                     largest broker; contributing to 15% of daily retail 
                     exchange volumes in India.</p>
@@ -26,7 +26,7 @@ function Stats() {
 
                       <br></br> <br></br>
 
-                    <h2>The Zerodha universe</h2>
+                    <h2>The TradeX universe</h2>
                     <br></br>
                     <p className='text-muted fs-5'>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
 

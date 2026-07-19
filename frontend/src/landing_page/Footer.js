@@ -5,9 +5,9 @@ function Footer() {
             <div className='row mt-5'>
                 <div className='col'>
                     <br></br>
-                    <img src='media/images/logo.svg' style={{ width: "60%" }} />
+                    <img src='media/images/tradelogo.png' style={{ width: "60%" }} />
                     <br></br>
-                    <p className='mt-4 fs-5 mb-5'>&copy; 2010 - 2026, Zerodha Broking Ltd.<br></br>
+                    <p className='mt-4 fs-5 mb-5'>&copy; 2010 - 2026, TradeX Broking Ltd.<br></br>
                         All rights reserved.</p>
                         <br></br>
                         <div className='fs-2 '>
@@ -62,8 +62,8 @@ function Footer() {
                     <a href='' className='text-muted' style={{textDecoration:"none"}}>Philosophy  </a>   <br></br> <br></br>
                     <a href='' className='text-muted' style={{textDecoration:"none"}}>Press & media  </a>  <br></br> <br></br>
                     <a href='' className='text-muted' style={{textDecoration:"none"}}>Careers  </a>   <br></br> <br></br>
-                    <a href='' className='text-muted' style={{textDecoration:"none"}}>Zerodha Cares (CSR)  </a>   <br></br> <br></br>
-                    <a href='' className='text-muted' style={{textDecoration:"none"}}>Zerodha.tech  </a>   <br></br> <br></br>
+                    <a href='' className='text-muted' style={{textDecoration:"none"}}>TradeX Cares (CSR)  </a>   <br></br> <br></br>
+                    <a href='' className='text-muted' style={{textDecoration:"none"}}>TradeX.tech  </a>   <br></br> <br></br>
                     <a href='' className='text-muted' style={{textDecoration:"none"}}>Open source  </a>   <br></br> <br></br>
                     <a href='' className='text-muted' style={{textDecoration:"none"}}>Referral program  </a>   <br></br> <br></br>
                 </div>
@@ -82,9 +82,9 @@ function Footer() {
             </div>
             <br></br><br></br>
             <div className='mt-3 text-muted fs-5 p-5'>
-            <p >Zerodha Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address:<br></br>
-                Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to
-                complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
+            <p >TradeX Broking Ltd.: Member of NSE, BSE, MCX & MSEI – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through TradeX Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Registered Address:<br></br>
+                TradeX Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to
+                complaints@TradeX.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF</p>
             <br></br>
             <p >Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
             <br></br>

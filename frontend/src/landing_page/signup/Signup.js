@@ -27,7 +27,7 @@ function Signup() {
       </div>
       
       <div className="signup-right">
-        <h2>Join Kite</h2>
+        <h2>Join TradeX</h2>
         <p>Create an account to start trading</p>
         
         <form onSubmit={handleSignupSubmit}>
